@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "THDropListView.h"
 
 @interface ViewController ()
 
@@ -25,5 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+#pragma  mark - private
+- (IBAction)showDropList:(id)sender{
+    NSArray *titles = @[@"首页",@"设置"];
+    THDropListView *dropList = [[THDropListView alloc] initWithData:titles];
+    [self.view addSubview:dropList];
+}
 @end

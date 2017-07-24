@@ -27,4 +27,6 @@ s.source_files  = "THDropList/*.{h,m}"
 
 s.requires_arc = true
 
+s.dependency "Masonry", "~>1.0.1" #这里可以指定依赖一些其他的开源库，这里使用了Masonry
+
 end

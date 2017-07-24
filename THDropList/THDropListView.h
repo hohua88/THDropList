@@ -1,5 +1,5 @@
 //
-//  ContantSMView.h
+//  THDropList.h
 //  KCBuinessKey
 //
 //  Created by eddy on 2017/6/23.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ContantSMView : UIView
+@interface THDropListView : UIView
 
 @property (nonatomic, strong) NSArray *dataArray;
 
 - (instancetype)initWithData:(NSArray *)array;
+
 @end
